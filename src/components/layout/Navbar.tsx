@@ -71,10 +71,10 @@ export default function Navbar() {
               className="group relative overflow-hidden rounded-full border border-violet-500/50 bg-gradient-to-r from-violet-600/20 to-blue-600/20 px-5 py-2 text-sm font-medium text-[var(--color-text-primary)] transition-all duration-300 hover:border-violet-400 hover:shadow-[0_0_20px_rgba(124,58,237,0.3)]"
               data-cursor="hover"
             >
-              <span className="relative z-10">Let's Talk</span>
+              <span className="relative z-10">Let&apos;s Talk</span>
               <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-violet-600 to-blue-600 transition-transform duration-300 group-hover:translate-x-0" />
               <span className="absolute inset-0 z-10 flex items-center justify-center text-sm font-medium text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                Let's Talk
+                Let&apos;s Talk
               </span>
             </Link>
           </div>
@@ -141,7 +141,7 @@ export default function Navbar() {
                   href="/contact"
                   className="inline-block rounded-full bg-gradient-to-r from-violet-600 to-blue-600 px-8 py-3 text-lg font-semibold text-white"
                 >
-                  Let's Talk
+                  Let&apos;s Talk
                 </Link>
               </motion.div>
             </nav>
