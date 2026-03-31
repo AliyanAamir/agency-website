@@ -1,48 +1,13 @@
 @import "tailwindcss";
 
+/* ── Extend Tailwind theme with custom fonts ── */
 @theme inline {
-  /* ── Font Families ── */
-  --font-sans: var(--font-space-grotesk), "Segoe UI", system-ui, sans-serif;
-  --font-display: var(--font-syne), "Segoe UI", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", "Courier New", monospace;
-
-  /* ── Easing ── */
-  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-in-out-quart: cubic-bezier(0.76, 0, 0.24, 1);
-
-  /* ── Violet Palette ── */
-  --color-violet-400: #a78bfa;
-  --color-violet-500: #8b5cf6;
-  --color-violet-600: #7c3aed;
-  --color-violet-700: #6d28d9;
-  --color-violet-800: #5b21b6;
-  --color-violet-900: #4c1d95;
-  --color-violet-950: #2e1065;
-
-  /* ── Blue Palette ── */
-  --color-blue-400: #60a5fa;
-  --color-blue-500: #3b82f6;
-  --color-blue-600: #2563eb;
-  --color-blue-700: #1d4ed8;
-  --color-blue-900: #1e3a8a;
-
-  /* ── Emerald Palette ── */
-  --color-emerald-400: #34d399;
-  --color-emerald-500: #10b981;
-
-  /* ── Cyan Palette ── */
-  --color-cyan-400: #22d3ee;
-  --color-cyan-500: #06b6d4;
-
-  /* ── Pink Palette ── */
-  --color-pink-500: #ec4899;
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-syne), ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ── Custom Properties for Direct Usage ── */
 :root {
-  /* ── Font CSS Variables (set by Next.js) ── */
-  /* These get populated by the font loader in layout.tsx */
-  
   /* ── Backgrounds ── */
   --color-bg-base: #070711;
   --color-bg-surface: #0d0d1c;
@@ -78,7 +43,7 @@
 }
 
 html {
-  scroll-behavior: auto; /* Lenis handles smooth scroll */
+  scroll-behavior: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
