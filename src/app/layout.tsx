@@ -1,10 +1,23 @@
 import type { Metadata } from "next";
+import { Space_Grotesk, Syne } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import LenisProvider from "@/components/layout/LenisProvider";
 import CustomCursor from "@/components/cursor/CustomCursor";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  display: "swap",
+});
+
+const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-syne",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -25,8 +38,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="grain-overlay">
-      <body>
+    <html lang="en" className={`${spaceGrotesk.variable} ${syne.variable} grain-overlay`}>
+      <body className="font-sans antialiased">
         <LenisProvider>
           <CustomCursor />
           {/* Skip to content */}
