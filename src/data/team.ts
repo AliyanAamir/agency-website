@@ -1,0 +1,56 @@
+import type { TeamMember } from "@/types";
+
+export const teamMembers: TeamMember[] = [
+  {
+    id: "1",
+    name: "Alex Rivera",
+    role: "Founder & Creative Director",
+    bio: "10+ years crafting digital experiences for Fortune 500s and high-growth startups. Obsessed with the intersection of design and performance.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+  },
+  {
+    id: "2",
+    name: "Mia Chen",
+    role: "Lead UX Designer",
+    bio: "Former designer at Google and Airbnb. Believes every interaction should feel effortless and every animation should serve a purpose.",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+  },
+  {
+    id: "3",
+    name: "Jordan Blake",
+    role: "Head of Development",
+    bio: "Full-stack engineer with a frontend passion. Turns complex designs into pixel-perfect, performant code — Core Web Vitals are a love language.",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+  },
+  {
+    id: "4",
+    name: "Priya Nair",
+    role: "Brand Strategist",
+    bio: "Brand builder with a background in psychology. Helps companies articulate who they are and why it matters in a crowded market.",
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+  },
+  {
+    id: "5",
+    name: "Sam Torres",
+    role: "SEO & Growth Lead",
+    bio: "Data nerd turned growth strategist. Specializes in technical SEO, content strategy, and building compounding organic acquisition engines.",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+  },
+  {
+    id: "6",
+    name: "Yuki Tanaka",
+    role: "Motion & UI Designer",
+    bio: "Animation obsessive who speaks Framer Motion fluently. Makes websites feel alive without ever sacrificing performance.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop&crop=face",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+  },
+];

@@ -1,0 +1,58 @@
+import type { Testimonial } from "@/types";
+
+export const testimonials: Testimonial[] = [
+  {
+    id: "1",
+    quote: "Nexus Studio completely transformed our online presence. The attention to detail and the animations they built are unlike anything we've seen from other agencies.",
+    author: "Sarah Chen",
+    role: "CEO",
+    company: "Luminary Tech",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    id: "2",
+    quote: "From strategy to execution, the team delivered beyond expectations. Our conversion rate jumped 47% within three months of launch.",
+    author: "Marcus Webb",
+    role: "Head of Growth",
+    company: "Horizon SaaS",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    id: "3",
+    quote: "The brand identity they built for us perfectly captures who we are. Every client mentions how professional and cohesive everything looks.",
+    author: "Priya Sharma",
+    role: "Founder",
+    company: "Bloom Wellness",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    id: "4",
+    quote: "We went from page 4 to page 1 for our most important keywords in under 6 months. The SEO strategy they put in place is genuinely incredible.",
+    author: "Jake Morrison",
+    role: "Marketing Director",
+    company: "Apex Commerce",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    id: "5",
+    quote: "Working with Nexus felt like having a world-class in-house team. They understood our vision immediately and executed flawlessly.",
+    author: "Elena Vasquez",
+    role: "CPO",
+    company: "Nova Fintech",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    id: "6",
+    quote: "The website they built loads in under 2 seconds and looks stunning on every device. Our bounce rate dropped by 35% overnight.",
+    author: "Tom Keller",
+    role: "CTO",
+    company: "StackFlow",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=face",
+    rating: 5,
+  },
+];
